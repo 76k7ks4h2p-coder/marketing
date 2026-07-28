@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+/*
+ * OwnerBase のデザイントークン
+ * 方針: 信頼感・清潔感・分かりやすさ。過剰に派手にしない。モバイルファースト。
+ */
+@theme {
+  --color-brand-50: #eef6f8;
+  --color-brand-100: #d6e9ef;
+  --color-brand-200: #b0d4de;
+  --color-brand-300: #7fb6c7;
+  --color-brand-500: #2f7f95;
+  --color-brand-600: #256a7e;
+  --color-brand-700: #1d5566;
+  --color-brand-800: #17434f;
+  --color-brand-900: #123540;
+
+  --color-ink-500: #64748b;
+  --color-ink-700: #334155;
+  --color-ink-900: #0f172a;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f8fa;
+
+  --font-sans:
+    system-ui, -apple-system, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+    'Noto Sans JP', 'Yu Gothic UI', 'Meiryo', sans-serif;
+}
+
+html {
+  /* iOS Safari で入力時に自動ズームしないよう、基準を 16px 相当に保つ */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-surface-muted);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  /* 390px 幅の端末で意図しない横スクロールを起こさない */
+  overflow-x: hidden;
+}
+
+/* キーボード操作時のフォーカスを必ず視認できるようにする */
+:focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* 数値の桁を揃える（金額表示用） */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
