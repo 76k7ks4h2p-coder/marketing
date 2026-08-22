@@ -3,9 +3,12 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: '生まれ星占い｜生年月日・出生地・出生時刻でみる四柱推命',
+  title: {
+    default: '生まれ星占い｜四柱推命であなたの本質と運気がわかる',
+    template: '%s｜生まれ星占い',
+  },
   description:
-    '生年月日・出生地・出生時刻を入力するだけで、四柱推命ベースのあなたの性格・運気を占います。',
+    '生年月日・出生地・出生時刻を入力するだけ。四柱推命ベースであなたの性格・五行バランス・運気のヒントを無料で占います。',
   robots: {
     index: false,
     follow: false,
