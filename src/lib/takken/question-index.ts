@@ -1,0 +1,123 @@
+import type { TopicId, YearId } from './types'
+
+/**
+ * 問題の「軽い索引」。ID と年度と論点だけを持つ。
+ *
+ * 成績の集計はブラウザ側（localStorage に保存した履歴）で行う必要があるが、
+ * そこへ問題文と解説まで含んだ全データを送り込むのは無駄なので、
+ * 集計に必要な最小限の情報だけをこのファイルに切り出している。
+ *
+ * このファイルは questions/ 配下の実データから機械的に生成したもの。
+ * 内容が実データと一致していることは tests/takken/question-index.test.ts で
+ * 検証しているので、問題を追加・削除したらこのファイルも更新すること。
+ */
+export type QuestionIndexEntry = {
+  readonly id: string
+  readonly yearId: YearId
+  readonly topic: TopicId
+}
+
+export const QUESTION_INDEX: readonly QuestionIndexEntry[] = [
+  { id: 'r07-01', yearId: 'r07', topic: 'ishi-hyoji' },
+  { id: 'r07-02', yearId: 'r07', topic: 'seigen-koi-noryoku' },
+  { id: 'r07-03', yearId: 'r07', topic: 'dairi' },
+  { id: 'r07-04', yearId: 'r07', topic: 'jiko' },
+  { id: 'r07-05', yearId: 'r07', topic: 'bukken-hendo' },
+  { id: 'r07-06', yearId: 'r07', topic: 'teitoken' },
+  { id: 'r07-07', yearId: 'r07', topic: 'saimu-furiko' },
+  { id: 'r07-08', yearId: 'r07', topic: 'baibai' },
+  { id: 'r07-09', yearId: 'r07', topic: 'chintaishaku' },
+  { id: 'r07-10', yearId: 'r07', topic: 'sozoku' },
+  { id: 'r06-01', yearId: 'r06', topic: 'ishi-hyoji' },
+  { id: 'r06-02', yearId: 'r06', topic: 'dairi' },
+  { id: 'r06-03', yearId: 'r06', topic: 'jiko' },
+  { id: 'r06-04', yearId: 'r06', topic: 'kyoyu' },
+  { id: 'r06-05', yearId: 'r06', topic: 'teitoken' },
+  { id: 'r06-06', yearId: 'r06', topic: 'rentai-hosho' },
+  { id: 'r06-07', yearId: 'r06', topic: 'saiken-joto' },
+  { id: 'r06-08', yearId: 'r06', topic: 'bensai-sosai' },
+  { id: 'r06-09', yearId: 'r06', topic: 'fuho-koi' },
+  { id: 'r06-10', yearId: 'r06', topic: 'sozoku' },
+  { id: 'r05-01', yearId: 'r05', topic: 'ishi-hyoji' },
+  { id: 'r05-02', yearId: 'r05', topic: 'seigen-koi-noryoku' },
+  { id: 'r05-03', yearId: 'r05', topic: 'dairi' },
+  { id: 'r05-04', yearId: 'r05', topic: 'bukken-hendo' },
+  { id: 'r05-05', yearId: 'r05', topic: 'teitoken' },
+  { id: 'r05-06', yearId: 'r05', topic: 'rentai-hosho' },
+  { id: 'r05-07', yearId: 'r05', topic: 'baibai' },
+  { id: 'r05-08', yearId: 'r05', topic: 'chintaishaku' },
+  { id: 'r05-09', yearId: 'r05', topic: 'ukeoi-inin' },
+  { id: 'r05-10', yearId: 'r05', topic: 'sozoku' },
+  { id: 'r04-01', yearId: 'r04', topic: 'ishi-hyoji' },
+  { id: 'r04-02', yearId: 'r04', topic: 'dairi' },
+  { id: 'r04-03', yearId: 'r04', topic: 'bukken-hendo' },
+  { id: 'r04-04', yearId: 'r04', topic: 'teitoken' },
+  { id: 'r04-05', yearId: 'r04', topic: 'saiken-jitsugen' },
+  { id: 'r04-06', yearId: 'r04', topic: 'saiken-jitsugen' },
+  { id: 'r04-07', yearId: 'r04', topic: 'saimu-furiko' },
+  { id: 'r04-08', yearId: 'r04', topic: 'chintaishaku' },
+  { id: 'r04-09', yearId: 'r04', topic: 'fuho-koi' },
+  { id: 'r04-10', yearId: 'r04', topic: 'sozoku' },
+  { id: 'r03-01', yearId: 'r03', topic: 'seigen-koi-noryoku' },
+  { id: 'r03-02', yearId: 'r03', topic: 'dairi' },
+  { id: 'r03-03', yearId: 'r03', topic: 'jiko' },
+  { id: 'r03-04', yearId: 'r03', topic: 'bukken-hendo' },
+  { id: 'r03-05', yearId: 'r03', topic: 'teitoken' },
+  { id: 'r03-06', yearId: 'r03', topic: 'saimu-furiko' },
+  { id: 'r03-07', yearId: 'r03', topic: 'baibai' },
+  { id: 'r03-08', yearId: 'r03', topic: 'chintaishaku' },
+  { id: 'r03-09', yearId: 'r03', topic: 'ukeoi-inin' },
+  { id: 'r03-10', yearId: 'r03', topic: 'sozoku' },
+  { id: 'r02-01', yearId: 'r02', topic: 'sonota' },
+  { id: 'r02-02', yearId: 'r02', topic: 'dairi' },
+  { id: 'r02-03', yearId: 'r02', topic: 'jiko' },
+  { id: 'r02-04', yearId: 'r02', topic: 'bukken-hendo' },
+  { id: 'r02-05', yearId: 'r02', topic: 'teitoken' },
+  { id: 'r02-06', yearId: 'r02', topic: 'saiken-joto' },
+  { id: 'r02-07', yearId: 'r02', topic: 'bensai-sosai' },
+  { id: 'r02-08', yearId: 'r02', topic: 'sonota' },
+  { id: 'r02-09', yearId: 'r02', topic: 'fuho-koi' },
+  { id: 'r02-10', yearId: 'r02', topic: 'sozoku' },
+  { id: 'r01-01', yearId: 'r01', topic: 'ishi-hyoji' },
+  { id: 'r01-02', yearId: 'r01', topic: 'dairi' },
+  { id: 'r01-03', yearId: 'r01', topic: 'sonota' },
+  { id: 'r01-04', yearId: 'r01', topic: 'teitoken' },
+  { id: 'r01-05', yearId: 'r01', topic: 'saiken-joto' },
+  { id: 'r01-06', yearId: 'r01', topic: 'saimu-furiko' },
+  { id: 'r01-07', yearId: 'r01', topic: 'baibai' },
+  { id: 'r01-08', yearId: 'r01', topic: 'chintaishaku' },
+  { id: 'r01-09', yearId: 'r01', topic: 'fuho-koi' },
+  { id: 'r01-10', yearId: 'r01', topic: 'sozoku' },
+  { id: 'h30-01', yearId: 'h30', topic: 'ishi-hyoji' },
+  { id: 'h30-02', yearId: 'h30', topic: 'seigen-koi-noryoku' },
+  { id: 'h30-03', yearId: 'h30', topic: 'jiko' },
+  { id: 'h30-04', yearId: 'h30', topic: 'sonota' },
+  { id: 'h30-05', yearId: 'h30', topic: 'sonota-tanpo' },
+  { id: 'h30-06', yearId: 'h30', topic: 'saimu-furiko' },
+  { id: 'h30-07', yearId: 'h30', topic: 'sonota' },
+  { id: 'h30-08', yearId: 'h30', topic: 'shiyo-taishaku' },
+  { id: 'h30-09', yearId: 'h30', topic: 'fuho-koi' },
+  { id: 'h30-10', yearId: 'h30', topic: 'sozoku' },
+  { id: 'h29-01', yearId: 'h29', topic: 'dairi' },
+  { id: 'h29-02', yearId: 'h29', topic: 'sonota' },
+  { id: 'h29-03', yearId: 'h29', topic: 'kyoyu' },
+  { id: 'h29-04', yearId: 'h29', topic: 'sonota-tanpo' },
+  { id: 'h29-05', yearId: 'h29', topic: 'bensai-sosai' },
+  { id: 'h29-06', yearId: 'h29', topic: 'saimu-furiko' },
+  { id: 'h29-07', yearId: 'h29', topic: 'baibai' },
+  { id: 'h29-08', yearId: 'h29', topic: 'chintaishaku' },
+  { id: 'h29-09', yearId: 'h29', topic: 'fuho-koi' },
+  { id: 'h29-10', yearId: 'h29', topic: 'sozoku' },
+  { id: 'h28-01', yearId: 'h28', topic: 'seigen-koi-noryoku' },
+  { id: 'h28-02', yearId: 'h28', topic: 'sonota' },
+  { id: 'h28-03', yearId: 'h28', topic: 'bukken-hendo' },
+  { id: 'h28-04', yearId: 'h28', topic: 'teitoken' },
+  { id: 'h28-05', yearId: 'h28', topic: 'rentai-hosho' },
+  { id: 'h28-06', yearId: 'h28', topic: 'bensai-sosai' },
+  { id: 'h28-07', yearId: 'h28', topic: 'sonota' },
+  { id: 'h28-08', yearId: 'h28', topic: 'chintaishaku' },
+  { id: 'h28-09', yearId: 'h28', topic: 'ukeoi-inin' },
+  { id: 'h28-10', yearId: 'h28', topic: 'sozoku' },
+]
+
+export const INDEXED_QUESTION_COUNT = QUESTION_INDEX.length
