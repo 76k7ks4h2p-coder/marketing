@@ -1,0 +1,6 @@
+dist
+coverage
+pnpm-lock.yaml
+# data:build が生成するファイル（data/rooms.csv から生成）
+public/data/rooms.json
+dist-standalone

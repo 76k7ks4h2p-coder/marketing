@@ -1,0 +1,97 @@
+[
+  {
+    "id": "cai6-classroom-list",
+    "title": "キャンパスマップ／教室一覧｜京都橘大学 履修の手引き",
+    "url": "https://cai6.tachibana-u.ac.jp/kyomu/courses/map.html",
+    "publisher": "京都橘大学",
+    "kind": "classroom-list",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index",
+    "note": "開発環境のネットワーク制限で原本を直接取得できなかったため、検索エンジンの索引に含まれる本文（建物・階ごとの表）から転記。原本との最終照合が必要。"
+  },
+  {
+    "id": "spec-verification",
+    "title": "開発指示書 §8 の検証用データ（公式教室一覧に基づく 6 教室）",
+    "url": null,
+    "publisher": "Tachibana Campus Navi 開発指示書",
+    "kind": "provided",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "provided",
+    "note": "111・2202・A201・G001・H301・J804 の建物と階。索引から転記した公式一覧の内容とも一致したため「照合済み」とした。"
+  },
+  {
+    "id": "official-campus-map",
+    "title": "キャンパスマップ｜京都橘大学",
+    "url": "https://www.tachibana-u.ac.jp/about/campus/campus.html",
+    "publisher": "京都橘大学",
+    "kind": "campus-map",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index",
+    "note": "建物名・建物番号・掲載施設の名称のみ索引から確認。地図画像（建物の配置）は未取得のため、位置は登録していない。"
+  },
+  {
+    "id": "accessibility-map-2026",
+    "title": "バリアフリーマップ（2026年10月版）",
+    "url": "https://www.tachibana-u.ac.jp/about/campus/pdf/2026_accessibility.pdf",
+    "publisher": "京都橘大学",
+    "kind": "accessibility-map",
+    "accessedAt": null,
+    "accessMethod": "not-accessed",
+    "note": "開発環境から取得できず、内容（エレベーター・スロープ・段差など）はアプリに反映していない。"
+  },
+  {
+    "id": "media-facilities",
+    "title": "施設・設備｜京都橘大学 情報メディアデスク",
+    "url": "https://cai6.tachibana-u.ac.jp/media/information/facilities/",
+    "publisher": "京都橘大学",
+    "kind": "official-page",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index",
+    "note": "コンピューター教室の専用学科・台数の補足に使用。"
+  },
+  {
+    "id": "news-academic-terrace",
+    "title": "自然と調和し、多様な交流を生み出す情報・AI・医療のオープンイノベーション拠点「アカデミックテラス」誕生",
+    "url": "https://www.tachibana-u.ac.jp/important/2026/04/academic-terrace-kyoto-tachibana-daigaku.html",
+    "publisher": "京都橘大学",
+    "kind": "news",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index"
+  },
+  {
+    "id": "news-terrace-dining",
+    "title": "2026年4月、新しい学生食堂「テラスダイニングコモンズ」がオープン！",
+    "url": "https://www.tachibana-u.ac.jp/important/2025/11/terrace-dining-commons.html",
+    "publisher": "京都橘大学",
+    "kind": "news",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index"
+  },
+  {
+    "id": "learning-commons",
+    "title": "ラーニングコモンズ｜京都橘大学",
+    "url": "https://www.tachibana-u.ac.jp/about/campus/learning.html",
+    "publisher": "京都橘大学",
+    "kind": "official-page",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index"
+  },
+  {
+    "id": "admission-campus",
+    "title": "キャンパス紹介｜京都橘大学 受験生サイト",
+    "url": "https://www.tachibana-u.ac.jp/admission/about/campusmap/",
+    "publisher": "京都橘大学",
+    "kind": "official-page",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index"
+  },
+  {
+    "id": "admission-kyoyukan",
+    "title": "響友館｜京都橘大学 受験生サイト",
+    "url": "https://www.tachibana-u.ac.jp/admission/about/campusmap/kyoyukan/",
+    "publisher": "京都橘大学",
+    "kind": "official-page",
+    "accessedAt": "2026-10-18",
+    "accessMethod": "search-index"
+  }
+]

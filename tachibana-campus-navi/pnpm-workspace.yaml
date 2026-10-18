@@ -1,0 +1,5 @@
+packages:
+  - '.'
+# esbuild のバイナリは optionalDependencies で入るため postinstall は不要
+ignoredBuiltDependencies:
+  - esbuild

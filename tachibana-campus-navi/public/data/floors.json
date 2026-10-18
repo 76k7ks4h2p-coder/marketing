@@ -1,0 +1,326 @@
+[
+  {
+    "buildingId": "seiwa",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiwa",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiwa",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiwa",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "mican",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "mican",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "mican",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "mican",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seifu",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seifu",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seifu",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiyu",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiyu",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiyu",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seiyu",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seika",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "seika",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "jiyu",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "jiyu",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "jiyu",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "jiyu",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "meiyu",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "meiyu",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "meiyu",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "yushin",
+    "level": 6,
+    "label": "6階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "kyoyu",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "kyoyu",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "kyoyu",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "kyoyu",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "keisei",
+    "level": -1,
+    "label": "地下1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "keisei",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "keisei",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "keisei",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "keisei",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-links",
+    "level": 6,
+    "label": "6階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 2,
+    "label": "2階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 3,
+    "label": "3階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 4,
+    "label": "4階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 5,
+    "label": "5階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 6,
+    "label": "6階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 7,
+    "label": "7階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "academic-terrace",
+    "level": 8,
+    "label": "8階",
+    "floorMap": null
+  },
+  {
+    "buildingId": "crystal-cafe",
+    "level": 1,
+    "label": "1階",
+    "floorMap": null
+  }
+]
