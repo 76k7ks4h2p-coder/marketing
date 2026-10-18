@@ -13,6 +13,8 @@ const eslintConfig = defineConfig([
     'build/**',
     'next-env.d.ts',
     'coverage/**',
+    // 独立したサブプロジェクト（独自の ESLint 設定を持つ）
+    'tachibana-campus-navi/**',
   ]),
 ])
 

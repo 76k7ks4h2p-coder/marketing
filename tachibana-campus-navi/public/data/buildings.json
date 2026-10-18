@@ -1,0 +1,349 @@
+[
+  {
+    "id": "seiwa",
+    "code": "1",
+    "name": "清和館",
+    "kind": "academic",
+    "aliases": ["せいわかん"],
+    "description": null,
+    "roomCodeRule": { "prefix": "1", "digits": 2 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「清和館［111教室～146教室］」" },
+      { "sourceId": "spec-verification", "note": "111 = 清和館 1階" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "mican",
+    "code": "2",
+    "name": "mican",
+    "kind": "academic",
+    "aliases": ["みかん"],
+    "description": null,
+    "roomCodeRule": { "prefix": "2", "digits": 3 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「mican［2101教室～2405教室］」" },
+      { "sourceId": "spec-verification", "note": "2202 = mican 2階" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "seishin",
+    "code": "7",
+    "name": "清心館",
+    "kind": "other",
+    "aliases": ["せいしんかん"],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map", "note": "建物番号 7" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "seishi",
+    "code": "8",
+    "name": "清史館",
+    "kind": "other",
+    "aliases": [],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map", "note": "建物番号 8" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "seifu",
+    "code": "9",
+    "name": "清風館",
+    "kind": "academic",
+    "aliases": ["せいふうかん"],
+    "description": null,
+    "roomCodeRule": { "prefix": "9", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「清風館［9301教室～9502教室］」" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "seiyu",
+    "code": "A",
+    "name": "清優館",
+    "kind": "academic",
+    "aliases": ["せいゆうかん", "A棟"],
+    "description": "2階にラーニング＆リサーチコモンズ（看護学部の拠点。他学部の学生も利用可）。",
+    "roomCodeRule": { "prefix": "A", "digits": 3 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「清優館［A102教室～A406教室］」" },
+      { "sourceId": "spec-verification", "note": "A201 = 清優館 2階" },
+      { "sourceId": "learning-commons" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "seika",
+    "code": "B",
+    "name": "清香館",
+    "kind": "academic",
+    "aliases": ["B棟"],
+    "description": null,
+    "roomCodeRule": { "prefix": "B", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「清香館［B101教室～B202教室］」" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "jiyu",
+    "code": "C",
+    "name": "児優館",
+    "kind": "academic",
+    "aliases": ["C棟"],
+    "description": null,
+    "roomCodeRule": { "prefix": "C", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「児優館［C201教室～C504教室］」" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "meiyu",
+    "code": "D",
+    "name": "明優館",
+    "kind": "academic",
+    "aliases": ["めいゆうかん", "D棟"],
+    "description": null,
+    "roomCodeRule": { "prefix": "D", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「明優館［D101教室～D304教室］」" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "yushin",
+    "code": "E",
+    "name": "優心館",
+    "kind": "academic",
+    "aliases": ["ゆうしんかん", "E棟"],
+    "description": null,
+    "roomCodeRule": { "prefix": "E", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「優心館［E101教室～E603教室］」" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "kyoyu",
+    "code": "F",
+    "name": "響友館",
+    "kind": "academic",
+    "aliases": ["きょうゆうかん", "F棟"],
+    "description": "2階に生協が運営する響友館食堂、3階に Tachibana English Community。",
+    "roomCodeRule": { "prefix": "F", "digits": 3 },
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「響友館［F401教室～F504教室］」" },
+      { "sourceId": "admission-kyoyukan" },
+      { "sourceId": "learning-commons" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "keisei",
+    "code": "G",
+    "name": "啓成館",
+    "kind": "academic",
+    "aliases": ["けいせいかん", "G棟"],
+    "description": null,
+    "roomCodeRule": { "prefix": "G", "digits": 3 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      { "sourceId": "cai6-classroom-list", "note": "見出し「啓成館［G001教室～G402教室］」" },
+      { "sourceId": "spec-verification", "note": "G001 = 啓成館 地下1階" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "academic-links",
+    "code": "H",
+    "name": "アカデミックリンクス",
+    "kind": "academic",
+    "aliases": ["H棟", "Academic Links"],
+    "description": "1〜3階にラーニングコモンズ（コモンズ1st・コモンズセントラル・コモンズ2nd・アクティブラーニングスタジオ）。",
+    "roomCodeRule": { "prefix": "H", "digits": 3 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      {
+        "sourceId": "cai6-classroom-list",
+        "note": "見出し「アカデミックリンクス［H301教室～H605教室］」"
+      },
+      { "sourceId": "spec-verification", "note": "H301 = アカデミックリンクス 3階" },
+      { "sourceId": "learning-commons" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "academic-terrace",
+    "code": "J",
+    "name": "アカデミックテラス",
+    "kind": "academic",
+    "aliases": ["J棟", "ACADEMIC TERRACE"],
+    "description": "2026年2月竣工。地上8階建て・延床面積約13,000㎡の本学最大の建物で、2026年4月開設のデジタルメディア学部・工学部ロボティクス学科・健康科学部臨床工学科の拠点。各階のコモンズが吹き抜けでつながる。",
+    "roomCodeRule": { "prefix": "J", "digits": 3 },
+    "map": null,
+    "status": "verified",
+    "sources": [
+      {
+        "sourceId": "cai6-classroom-list",
+        "note": "見出し「アカデミックテラス［J101教室～J804 Media Lab3］」"
+      },
+      { "sourceId": "spec-verification", "note": "J804 = アカデミックテラス 8階" },
+      { "sourceId": "official-campus-map", "note": "2026年2月竣工" },
+      { "sourceId": "news-academic-terrace", "note": "地上8階建て・延床面積約13,000㎡" }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "library",
+    "code": null,
+    "name": "図書館",
+    "kind": "facility",
+    "aliases": ["としょかん", "ライブラリ"],
+    "description": "2024年9月にリニューアル。フロアごとにアクティブ・リラックス・クワイエットの3つのゾーン。",
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [
+      { "sourceId": "official-campus-map" },
+      {
+        "sourceId": "admission-campus",
+        "note": "リニューアルとゾーンの説明（検索索引の要約。掲載ページは要確認）"
+      }
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "liberty-hall",
+    "code": null,
+    "name": "リバティホール（学生会館）",
+    "kind": "facility",
+    "aliases": ["リバティホール", "学生会館"],
+    "description": "食堂「TACHIBAL（タチバル）」、茶道用の和室、クラブ・サークルの部室。",
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }, { "sourceId": "news-terrace-dining" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "crystal-cafe",
+    "code": null,
+    "name": "クリスタルカフェ",
+    "kind": "facility",
+    "aliases": ["クリカ"],
+    "description": "1階にラーニングコモンズ「クリカコモンズ」。",
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }, { "sourceId": "learning-commons" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "central-gym",
+    "code": null,
+    "name": "中央体育館",
+    "kind": "sports",
+    "aliases": ["体育館"],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "second-gym",
+    "code": null,
+    "name": "第2体育館",
+    "kind": "sports",
+    "aliases": ["体育館"],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "lesson-hall",
+    "code": null,
+    "name": "レッスンホール",
+    "kind": "facility",
+    "aliases": [],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "club-house",
+    "code": null,
+    "name": "クラブハウス",
+    "kind": "facility",
+    "aliases": ["部室"],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "kyudojo",
+    "code": null,
+    "name": "弓道場",
+    "kind": "sports",
+    "aliases": [],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "ground",
+    "code": null,
+    "name": "総合グラウンド",
+    "kind": "sports",
+    "aliases": ["グラウンド"],
+    "description": null,
+    "roomCodeRule": null,
+    "map": null,
+    "status": "pending",
+    "sources": [{ "sourceId": "official-campus-map" }],
+    "checkedAt": "2026-10-18"
+  }
+]

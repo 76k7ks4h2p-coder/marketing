@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "gate-main",
+      "kind": "gate",
+      "label": "正門",
+      "buildingId": null,
+      "floor": null,
+      "position": null,
+      "refId": "main-gate",
+      "status": "pending",
+      "sources": [{ "sourceId": "official-campus-map", "note": "存在のみ確認。位置・接続は未登録" }]
+    },
+    {
+      "id": "bus-stop",
+      "kind": "bus-stop",
+      "label": "バス停留所",
+      "buildingId": null,
+      "floor": null,
+      "position": null,
+      "refId": "bus-stop",
+      "status": "pending",
+      "sources": [{ "sourceId": "official-campus-map", "note": "存在のみ確認。位置・接続は未登録" }]
+    }
+  ],
+  "edges": []
+}
